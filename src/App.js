@@ -9,18 +9,7 @@ function App() {
   const [showAddTask, setShowAddTask] = useState(false)
    const [tasks, setTasks] = useState(
         [
-            {
-                id: 1,
-                text:'finish reactAPP',
-                day : '5th july',
-                reminder: true,
-            },
-            {
-                id: 1,
-                text:'finish reactAPP',
-                day : '5th july',
-                reminder: true,
-            }
+            
 
         ]
     )
