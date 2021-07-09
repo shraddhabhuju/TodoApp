@@ -3,12 +3,12 @@ import Task from './Task'
 
 
 
-function Tasks({tasks,onDelete }) {
+function Tasks({tasks,onDelete, onToggle }) {
    
     return (
         <>
            {tasks.map((task =>(
-              <Task task ={task} onDelete={onDelete} />
+              <Task task ={task} onToggle = {onToggle} onDelete={onDelete} />
            )))} 
         </>
     )
